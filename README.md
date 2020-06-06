@@ -25,4 +25,8 @@ data = pd.read_csv(inputfile)
 data['车速'] = data['车速'].fillna(method='ffill')
 data.to_csv('D:\成都绕城高速.csv',mode='w',encoding='utf-8-sig')
 
-# 结果演示：
+# 结果：
+![image](https://github.com/chenguoqiang-transportation-boy/speed_predict/blob/master/images_demo/image1.jpg)
+![image](https://github.com/chenguoqiang-transportation-boy/speed_predict/blob/master/images_demo/image2.jpg)
+![image](https://github.com/chenguoqiang-transportation-boy/speed_predict/blob/master/images_demo/image3.jpg)
+![image](https://github.com/chenguoqiang-transportation-boy/speed_predict/blob/master/images_demo/image4.jpg)
